@@ -6,7 +6,7 @@ $(".navbar-toggler").on("click", function () {
 });
 
 $("#searchBtn").on("click", function () {
-  if ($("#TxtStdcode").val() !== "") {
+  if ($("#TxtStdcode").val() !== "" && $('#TxtStdcode').val() === '119000392') {
     $("#studentTable").show();
   }
 });
