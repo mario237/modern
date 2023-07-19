@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ModernWS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+  </head>
+  <body>
+    <app>
+      <div class="sidebar">
+        <div class="top-row pl-4 navbar navbar-dark">
+          <img src="images/mod.png" height="70%" width="20%" />
+          <a class="navbar-brand" href>Modern Academy</a>
+
+          <button class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse">
+          <ul class="nav flex-column">
+            <li class="nav-item px-3">
+              <a href="" class="nav-link">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+              </a>
+            </li>
+            <li class="nav-item px-3">
+              <a href="index.html" class="nav-link active">
+                <span class="oi oi-pencil" aria-hidden="true"></span> Results
+                (Credits)
+              </a>
+            </li>
+            <li class="nav-item px-3">
+              <a href="#" class="nav-link">
+                <span class="oi oi-pencil" aria-hidden="true"></span> Results
+                (Term)
+              </a>
+            </li>
+            <li class="nav-item px-3">
+              <a href="#" class="nav-link">
+                <span class="oi oi-pencil" aria-hidden="true"></span> Training
+                Data
+              </a>
+            </li>
+            <li class="nav-item px-3">
+              <a href="#" class="nav-link">
+                <span class="oi oi-pencil" aria-hidden="true"></span>Scheduale
+                (Credits)
+              </a>
+            </li>
+
+            <li class="nav-item px-3">
+              <a href="#" class="nav-link">
+                <span class="oi oi-pencil" aria-hidden="true"></span> Scheduale
+                (Term)
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="mobileNav">
+          <!--!-->
+          <ul class="nav flex-column">
+            <!--!-->
+            <li class="nav-item px-3">
+              <!--!-->
+              <!--!--><a href="" class="nav-link"
+                ><!--!-->
+                <span class="oi oi-home" aria-hidden="true"></span> Home </a
+              ><!--!-->
+            </li>
+            <!--!-->
+            <li class="nav-item px-3">
+              <!--!-->
+              <!--!--><a href="index.html" class="nav-link active"
+                ><!--!-->
+                <span class="oi oi-pencil" aria-hidden="true"></span> Results
+                (Credits) </a
+              ><!--!-->
+            </li>
+            <!--!-->
+            <li class="nav-item px-3">
+              <!--!-->
+              <!--!--><a href="#" class="nav-link"
+                ><!--!-->
+                <span class="oi oi-pencil" aria-hidden="true"></span> Results
+                (Term) </a
+              ><!--!-->
+            </li>
+            <!--!-->
+            <li class="nav-item px-3">
+              <!--!-->
+              <!--!--><a href="#" class="nav-link"
+                ><!--!-->
+                <span class="oi oi-pencil" aria-hidden="true"></span> Training
+                Data </a
+              ><!--!-->
+            </li>
+            <!--!-->
+            <li class="nav-item px-3">
+              <!--!-->
+              <!--!--><a href="#" class="nav-link"
+                ><!--!-->
+                <span class="oi oi-pencil" aria-hidden="true"></span>Scheduale
+                (Credits) </a
+              ><!--!-->
+            </li>
+            <!--!-->
+
+            <li class="nav-item px-3">
+              <!--!-->
+              <!--!--><a href="#" class="nav-link"
+                ><!--!-->
+                <span class="oi oi-pencil" aria-hidden="true"></span> Scheduale
+                (Term) </a
+              ><!--!-->
+            </li>
+            <!--!-->
+          </ul>
+          <!--!-->
+        </div>
+      </div>
+
+      <div class="main">
+        <!--!-->
+        <!--!-->
+        <div class="top-row px-4">
+          <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <div class="content px-4">
+          <!--!-->
+          <!--!-->
+          <div align="right">
+            <!--!-->
+            <!--!-->
+            <div dir="rtl">
+              <!--!--><!--!-->
+              <!--!--><!--!-->
+              <!--!--><!--!-->
+
+              <!--!--><label id="lable 1" class="col-form-label"
+                >كود الطالب</label
+              >
+              <!--!--><input id="TxtStdcode" class="modified valid" value="" /><!--!-->
+
+              <!--!--><button type="submit" id="searchBtn">ابحث</button>
+            </div>
+            <!--!-->
+          </div>
+          <!--!-->
+
+          <div id="studentTable">
+            <div class="table-responsive-sm" align="center">
+              <!--!-->
+              <table class="table table-bordered" dir="rtl" border="1">
+                <!--!-->
+                <thead style="background-color: darkblue; color: white">
+                  <!--!-->
+                  <!--!-->
+                  <tr>
+                    <th>كود الطالب</th>
+                    <th>الاسم</th>
+                    <th>التخصص</th>
+                    <th>المستوى</th>
+                  </tr>
+
+                  <tr style="background-color: white; color: black">
+                    <!--!-->
+
+                    <th>119000392</th>
+                    <!--!-->
+                    <th>عمر خالد مسعد انور</th>
+                    <th>علوم الحاسب</th>
+                    <!--!-->
+                    <th>3</th>
+                    <!--!-->
+                  </tr>
+                  <!--!-->
+                </thead>
+                <!--!-->
+              </table>
+              <!--!-->
+            </div>
+            <!--!-->
+            <div align="center">
+              <!--!-->
+              <table class="table table-striped" dir="rtl" border="1">
+                <!--!-->
+                <thead style="background-color: darkblue; color: white">
+                  <!--!-->
+                  <!--!-->
+                  <tr>
+                    <th>اسم المادة</th>
+                    <th>الفصل الدراسي</th>
+                    <th>المستوى</th>
+                    <th>التقدير</th>
+                  </tr>
+
+                  <tr style="background-color: white; color: black">
+                    <!--!-->
+                    <th>
+                      <!--!-->
+                      Data and Computer Network Security
+                    </th>
+                    <!--!-->
+                    <th>2</th>
+                    <!--!-->
+                    <th>3</th>
+                    <!--!-->
+                    <th>D</th>
+                    <!--!-->
+                  </tr>
+                  <!--!-->
+                  <tr style="background-color: white; color: black">
+                    <!--!-->
+                    <th>
+                      <!--!-->
+                      Multimedia
+                    </th>
+                    <!--!-->
+                    <th>2</th>
+                    <!--!-->
+                    <th>3</th>
+                    <!--!-->
+                    <th>A</th>
+                    <!--!-->
+                  </tr>
+                  <!--!-->
+                  <tr style="background-color: white; color: black">
+                    <!--!-->
+                    <th>
+                      <!--!-->
+                      Software Engineering 2
+                    </th>
+                    <!--!-->
+                    <th>2</th>
+                    <!--!-->
+                    <th>3</th>
+                    <!--!-->
+                    <th>C+</th>
+                    <!--!-->
+                  </tr>
+                  <!--!-->
+                  <tr style="background-color: white; color: black">
+                    <!--!-->
+                    <th>
+                      <!--!-->
+                      File Organization
+                    </th>
+                    <!--!-->
+                    <th>2</th>
+                    <!--!-->
+                    <th>3</th>
+                    <!--!-->
+                    <th>A+</th>
+                    <!--!-->
+                  </tr>
+                  <!--!-->
+                  <tr style="background-color: white; color: black">
+                    <!--!-->
+                    <th>
+                      <!--!-->
+                      Natural Language Processing
+                    </th>
+                    <!--!-->
+                    <th>2</th>
+                    <!--!-->
+                    <th>3</th>
+                    <!--!-->
+                    <th>D</th>
+                    <!--!-->
+                  </tr>
+                  <!--!-->
+                  <tr style="background-color: white; color: black">
+                    <!--!-->
+                    <th>
+                      <!--!-->
+                      Computer Vision
+                    </th>
+                    <!--!-->
+                    <th>2</th>
+                    <!--!-->
+                    <th>3</th>
+                    <!--!-->
+                    <th>B</th>
+                    <!--!-->
+                  </tr>
+                  <!--!-->
+                </thead>
+                <!--!-->
+              </table>
+              <!--!-->
+            </div>
+            <!--!-->
+            <div align="center">
+              <!--!-->
+              <table class="table table-striped" dir="rtl" border="1">
+                <!--!-->
+                <thead style="background-color: darkblue; color: white">
+                  <!--!-->
+                  <!--!-->
+                  <tr>
+                    <th>اسم المادة</th>
+
+                    <th>الحالة</th>
+                  </tr>
+
+                  <tr style="background-color: white; color: black">
+                    <!--!-->
+
+                    <th>التربية العسكرية</th>
+                    <!--!-->
+                    <th>لم اجتاز</th>
+                    <!--!-->
+                  </tr>
+                  <!--!-->
+                </thead>
+                <!--!-->
+              </table>
+              <!--!-->
+            </div>
+          </div>
+        </div>
+        <!--!-->
+      </div>
+    </app>
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
