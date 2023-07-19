@@ -9,4 +9,7 @@ $("#searchBtn").on("click", function () {
   if ($("#TxtStdcode").val() !== "" && $('#TxtStdcode').val() === '119000392') {
     $("#studentTable").show();
   }
+  else{
+    $("#studentTable").hide();
+  }
 });
